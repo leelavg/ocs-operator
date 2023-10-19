@@ -1,6 +1,8 @@
-module github.com/leelavg/ocs-operator
+module github.com/red-hat-storage/ocs-operator
 
-replace github.com/red-hat-storage/ocs-operator => ./
+// module github.com/leelavg/ocs-operator
+
+// replace github.com/red-hat-storage/ocs-operator => ./
 
 go 1.19
 
@@ -31,7 +33,6 @@ require (
 	github.com/prometheus-operator/prometheus-operator/pkg/client v0.63.0
 	github.com/prometheus/client_golang v1.14.0
 	github.com/prometheus/client_model v0.3.0
-	github.com/red-hat-storage/ocs-operator v0.0.0-00010101000000-000000000000
 	github.com/rook/rook v1.11.4
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.1
