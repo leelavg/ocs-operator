@@ -161,4 +161,7 @@ message ReportStatusRequest{
     string clientOperatorVersion = 3;
 }
 
-message ReportStatusResponse{}
+message ReportStatusResponse{
+    // Desired version which provider operator wants client operator to match
+    string clientDesiredVersion = 1;
+}
