@@ -35,6 +35,10 @@ deps-update:
 	cd api && go mod tidy && go mod vendor
 	@echo "Running deps-update on metrics submodule"
 	cd metrics && go mod tidy && go mod vendor
+	@echo "Running deps-update on provider/pb submodule"
+	cd services/provider/pb && go mod tidy && go mod vendor
+	@echo "Running deps-update on provider/client submodule"
+	cd services/provider/client && go mod tidy && go mod vendor
 
 operator-sdk:
 	@echo "Ensuring operator-sdk"

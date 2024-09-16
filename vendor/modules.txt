@@ -397,6 +397,13 @@ github.com/red-hat-storage/ocs-client-operator/api/v1alpha1
 ## explicit; go 1.22.0
 github.com/red-hat-storage/ocs-operator/api/v4/v1
 github.com/red-hat-storage/ocs-operator/api/v4/v1alpha1
+# github.com/red-hat-storage/ocs-operator/services/provider/client/v4 v4.0.0-00010101000000-000000000000 => ./services/provider/client
+## explicit; go 1.22.5
+github.com/red-hat-storage/ocs-operator/services/provider/client/v4
+# github.com/red-hat-storage/ocs-operator/services/provider/pb/v4 v4.0.0-00010101000000-000000000000 => ./services/provider/pb
+## explicit; go 1.22.5
+github.com/red-hat-storage/ocs-operator/services/provider/pb/v4
+github.com/red-hat-storage/ocs-operator/services/provider/pb/v4/interfaces
 # github.com/rook/rook/pkg/apis v0.0.0-20240828225153-88eab510dd2b
 ## explicit; go 1.22.0
 github.com/rook/rook/pkg/apis/ceph.rook.io
@@ -1158,4 +1165,6 @@ sigs.k8s.io/yaml
 sigs.k8s.io/yaml/goyaml.v2
 # github.com/red-hat-storage/ocs-operator/api/v4 => ./api
 # github.com/red-hat-storage/ocs-operator/metrics/v4 => ./metrics
+# github.com/red-hat-storage/ocs-operator/services/provider/pb/v4 => ./services/provider/pb
+# github.com/red-hat-storage/ocs-operator/services/provider/client/v4 => ./services/provider/client
 # github.com/portworx/sched-ops => github.com/portworx/sched-ops v0.20.4-openstorage-rc3
